@@ -80,9 +80,7 @@ string PalindromeFinder::getLargestPalindrome(string* inputStrings, int numberOf
 // in largestPalindromeFound.
 void PalindromeFinder::truncateToLargestPalindrome(string& inputString){
 
-    // This is a simple O(n^3) runtime algorithm. This is much too slow to be practical, but it is the
-    //  simpler to understand what it's doing than the more efficient algorithms. As the course goes on,
-    //  you will have to submit efficient functions.
+    // This is a simple O(n^3) runtime algorithm.
 
     truncateString(inputString);
 
